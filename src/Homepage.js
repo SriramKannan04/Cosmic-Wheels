@@ -12,7 +12,7 @@ function Homepage() {
       </div></center>
 
       <div className="expand">
-        <center><h2 className='exp'>Here you can find most phenomenonal cars</h2></center>
+        <center><h2 className='exp'>Here you can spot the most <span className='swap'></span> cars</h2></center>
       </div>
 
 
