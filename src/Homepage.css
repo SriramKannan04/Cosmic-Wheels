@@ -51,7 +51,7 @@
   }
 }
 
-.expand
+  .expand
 {
   
   margin-top: -30px;
@@ -68,6 +68,29 @@
   font-family: 'Aladin', cursive;
   font-size: 30px;
   padding-top: -50px;
+  color: snow;
+  text-shadow: 2px 2px black;
+}
+.swap
+{
+  font-family: 'Aladin', cursive;
+  letter-spacing: 2px;
+  color: snow;
+  text-shadow: 2px 2px black;
+}
+.swap::before
+{
+  content: '';
+  animation: swapping infinite 12s;
+}
+@keyframes swapping 
+{
+  0%   {content: 'phenomenal'; color: greenyellow;}
+  20%  {content: 'incredible'; color: greenyellow;}
+  40%  {content: 'astounding '; color:greenyellow;}
+  60%  {content: 'exceptional '; color: greenyellow;}
+  80%  {content: 'remarkable '; color: greenyellow;}
+  100% {content: 'extraordinary'; color: greenyellow;}
 }
 
 .homeCar
