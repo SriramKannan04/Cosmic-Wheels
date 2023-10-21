@@ -1,0 +1,10 @@
+body
+{
+  background-image: url("bg4.png");
+  /* background-image: url("Ford-Mustang-gt-4k.jpg"); */
+  /* background-image: url("burnout.jpg"); */
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
